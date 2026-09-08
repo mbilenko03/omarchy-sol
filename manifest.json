@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mbilenko.sol",
+  "name": "Solar System",
+  "version": "1.0.0",
+  "author": "Michael Bilenko",
+  "license": "MIT",
+  "description": "Live solar-system planet positions in the Omarchy bar. Offline, no network.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Solar System",
+    "description": "Live solar-system planet positions in the Omarchy bar.",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
