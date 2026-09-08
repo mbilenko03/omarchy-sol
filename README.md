@@ -2,6 +2,8 @@
 
 A bar widget for [Omarchy](https://omarchy.org/) Quattro. Click the orbit icon for a compact, live view of the planets.
 
+![Solar System panel](preview.png)
+
 Positions are computed locally from JPL’s approximate Keplerian elements (Standish, 1800–2050). There is no network, no NASA API, and no extra packages.
 
 Plugin id: `mbilenko.sol`
